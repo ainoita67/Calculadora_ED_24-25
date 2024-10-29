@@ -27,9 +27,9 @@ public class Calculadora {
 	 * Suma
 	 * Realiza la suma de dos números enteros.
 	 * 
-	 * @param n1	Entero. Primer número de la suma.
-	 * @param n2	Entero. Segundo número de la suma.
-	 * @return		Entero. Resultado de la suma.
+	 * @param n1	Primer número de la suma.
+	 * @param n2	Segundo número de la suma.
+	 * @return		Resultado de la suma.
 	 */
 	public int suma (int n1, int n2) {
 		return n1 + n2;
@@ -39,9 +39,9 @@ public class Calculadora {
 	 * Resta
 	 * Realiza la resta de dos números enteros.
 	 * 
-	 * @param n1	Entero. Primer número de la resta.
-	 * @param n2	Entero. Segundo número de la resta.
-	 * @return		Entero. Resultado de la resta.
+	 * @param n1	Primer número de la resta.
+	 * @param n2	Segundo número de la resta.
+	 * @return		Resultado de la resta.
 	 */	
 	public int resta (int n1, int n2) {
 		return n1 - n2;
@@ -52,9 +52,9 @@ public class Calculadora {
 	 * Resta el Mayor al Menor
 	 * Realiza la resta al mayor número recibido como parámetro el menor número recibido.
 	 * 
-	 * @param n1	Entero. Primer número de la resta.
-	 * @param n2	Entero. Segundo número de la resta.
-	 * @return		Entero. Resultado de la resta.
+	 * @param n1	Primer número de la resta.
+	 * @param n2	Segundo número de la resta.
+	 * @return		Resultado de la resta.
 	 */		
 	public int restaMayorAlMenor(int n1, int n2) {
 		int resultado;
@@ -72,9 +72,9 @@ public class Calculadora {
 	 * División
 	 * Realiza la división de dos números.
 	 * 
-	 * @param n1	Entero. Numerador.
-	 * @param n2	Entero. Denominador.
-	 * @return		Entero. Resultado de la división.
+	 * @param n1	Numerador.
+	 * @param n2	Denominador.
+	 * @return		Resultado de la división.
 	 */		
 	public int dividir(int n1, int n2) {
 		int resultado;
