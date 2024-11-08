@@ -25,8 +25,14 @@ public class Main {
 		System.out.println(cal.dividir(7, 2));
 		//System.out.println(cal.dividir(0, 0));
 		
+		System.out.println("---- Sumas ------");
 		for (int i=0; i<10; i++) {
 			System.out.println(cal.suma(5, i));
+		}
+		
+		System.out.println("---- Restas ------");
+		for (int i=0; i<10; i++) {
+			System.out.println(cal.resta(5, i));
 		}
 		
 	} // fin main
